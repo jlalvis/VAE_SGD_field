@@ -1,0 +1,18 @@
+name: ptjulia
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - matplotlib
+  - notebook
+  - numpy
+  - pip
+  - python=3.8.5
+  - pytorch
+  - scikit-image
+  - scipy
+  - torchvision
+  - pip:
+    - julia==0.5.6
