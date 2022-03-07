@@ -1,11 +1,11 @@
 ## Inversion with VAE and stochastic gradient descent using an assembled prior.
-This is the code associated to the manuscript **Geophysical Inversion Using a Variational Autoencoder to Model an Assembled Spatial Prior Uncertainty** which may be found [here](). An `environment.yml` file is provided and may be used as:
+This is the code associated to the manuscript **Geophysical Inversion Using a Variational Autoencoder to Model an Assembled Spatial Prior Uncertainty** which may be found [here](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021JB022581). An `environment.yml` file is provided and may be used as:
 
 >conda env create -f environment.yml
 
 to install the needed dependencies. Note that if you use pytorch with a GPU it sometimes works better to use the `-c pytorch` channel.
 
-Once the dependencies are installed, you may install the code and run the synthetic and field cases in the manuscript available in each of the jupyter notebooks (.ipynb). The GPR cross-borehole dataset for the field case is available [here](), just download the file 'MOG.txt' and put it in the top folder.
+Once the dependencies are installed, you may install the code and run the synthetic and field cases in the manuscript available in each of the jupyter notebooks (.ipynb). The GPR cross-borehole dataset for the field case is available [here](https://doi.pangaea.de/10.1594/PANGAEA.934056), just download the file 'MOG.txt' and put it in the top folder.
 
 A brief explanation of contents:
 - The notebooks `VAE_SGD_nonlinear_synthetic.ipynb` and `VAE_SGD_nonlinear_field.ipynb` run the inversions once the DGMs are trained (they read the trained VAE from a parameter file with extension '.pth').
